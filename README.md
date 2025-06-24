@@ -1,16 +1,89 @@
-# lumine
+Clothing Shop Mobile App
+A beautiful, responsive Flutter application for browsing and purchasing fashion items.
 
-A new Flutter project.
+🚀 Features
+User Authentication — Email/password sign‑in & sign‑up flows
 
-## Getting Started
+Product Catalog — Browse categories, new arrivals, and featured products
 
-This project is a starting point for a Flutter application.
+Product Details — View full product info including images, sizes, colors, and pricing
 
-A few resources to get you started if this is your first Flutter project:
+Shopping Cart — Add/remove items, adjust quantities, and review your order
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Search & Filter — Real‑time search with filters by category, size, and price
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+About Page — Company info and contact details
+
+(Future) Firebase integration for backend services, user orders, and authentication
+
+📁 Folder Structure
+bash
+Copy
+Edit
+lib/
+├── models/            # Data models: Product, User, CartItem, Auth, etc.
+├── services/          # Providers & services: ProductService, CartProvider, AuthService
+├── screens/           # UI screens: Home, Login, Signup, ProductList, ProductDetail, Cart, About
+├── widgets/           # Reusable components: ProductCard, SearchBar, QuantitySelector
+└── main.dart          # App entry point and routing
+assets/
+  └── images/          # Product photos, icons, splash screens
+pubspec.yaml           # Dependencies and metadata
+📦 Getting Started
+Prerequisites
+Flutter SDK (v3.x+)
+
+Android Studio or Xcode for mobile emulators
+
+Optionally, a Firebase project for backend services
+
+Installation
+bash
+Copy
+Edit
+# Clone this repo
+git clone https://github.com/NehanVidanaarchchi/Clothing-Shop-Mobile-App.git
+cd Clothing-Shop-Mobile-App
+
+# Install dependencies
+flutter pub get
+
+# Run on Android or iOS
+flutter run
+🛠️ Technologies Used
+Flutter & Dart
+
+Provider / Riverpod (state management)
+
+Firebase Auth & Firestore (forthcoming)
+
+Animations & responsive UI
+
+🎨 Screenshots / Demo
+(Replace these placeholders with actual screenshots or a link to a demo video)
+
+Home Screen
+
+Product Details
+
+Cart
+
+🔮 Roadmap
+ Integrate Firebase backend (Auth + Firestore)
+
+ Add persistent shopping cart and order history
+
+ Enhance the search engine with filters and suggestion ranking
+
+ Add payment gateway integration
+
+🤝 Contributing
+Fork this repository
+
+Create a feature branch (git checkout -b feature/your-feature)
+
+Commit your changes
+
+Push to your branch and submit a Pull Request
+
+✅ Contributions, bug reports, and feature requests are very welcome! Please include clear descriptions and screenshots if relevant.
